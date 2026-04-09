@@ -9,24 +9,24 @@ class Clictl < Formula
   on_macos do
     on_arm do
       url "https://download.clictl.dev/releases/v#{version}/clictl-darwin-arm64.tar.gz"
-      sha256 "5c3a6993a6ffd9c3f9001b26aecd2ec5f102bf5acf1a42311152ebf05bc55dce" # Updated automatically by release workflow
+      sha256 "d3e6c69360d25f9b86c3851036f9339e628e80a7267d2231119598a1b13517dd" # Updated automatically by release workflow
     end
 
     on_intel do
       url "https://download.clictl.dev/releases/v#{version}/clictl-darwin-amd64.tar.gz"
-      sha256 "4e69458375ebf7fff485db9ee075c52e344b988fa260c3c73bd017256e525076" # Updated automatically by release workflow
+      sha256 "67d9bda6bb27f04abe3f87bfe578ef41188b92313142d2e46d8883321032e72e" # Updated automatically by release workflow
     end
   end
 
   on_linux do
     on_arm do
       url "https://download.clictl.dev/releases/v#{version}/clictl-linux-arm64.tar.gz"
-      sha256 "12fc32761954b3bc1a0ab356cac4785d6dc6093fe822849ddc7207b626a6ba28" # Updated automatically by release workflow
+      sha256 "18e10d1fbefaf12bba5e8033da473e86444392cda7206a84765815dab8f49e3d" # Updated automatically by release workflow
     end
 
     on_intel do
       url "https://download.clictl.dev/releases/v#{version}/clictl-linux-amd64.tar.gz"
-      sha256 "90a0e079565da78d140174de22a77de3fcacba0f517cfc0d70802fbcfc24b9dd" # Updated automatically by release workflow
+      sha256 "dec615777a11b9b93cb2c80b140cb1955306524b99cad64fd30af25d39854324" # Updated automatically by release workflow
     end
   end
 
