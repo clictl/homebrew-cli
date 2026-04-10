@@ -10,7 +10,7 @@ class Clictl < Formula
   on_macos do
     on_arm do
       url "https://download.clictl.dev/releases/v#{version}/clictl-darwin-arm64.tar.gz"
-      sha256 "6ec93397e70dd3b21b6d7766b8015ca4a8fed368b9d2bad41c3436a96e0606bb" # Updated automatically by release workflow
+      sha256 "930553db6f0e45a4d57afeec3ddc8f96a3bd611cf13208212fe17f0250ebaad3" # Updated automatically by release workflow
     end
 
     on_intel do
