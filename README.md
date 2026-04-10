@@ -5,19 +5,19 @@ Official [Homebrew](https://brew.sh) tap for [clictl](https://clictl.dev) - a pa
 ## Install
 
 ```bash
-brew install clictl/cli
+brew install clictl/clictl
 ```
 
 ## Upgrade
 
 ```bash
-brew upgrade clictl/cli
+brew upgrade clictl/clictl
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall clictl/cli
+brew uninstall clictl/clictl
 ```
 
 ## About
@@ -35,7 +35,7 @@ clictl turns any API, MCP server, or website into a CLI command your agent disco
 curl -fsSL https://download.clictl.dev/install.sh | bash
 
 # Windows (Scoop)
-scoop bucket add clictl https://github.com/clictl/scoop-cli
+scoop bucket add clictl https://github.com/clictl/scoop-clictl
 scoop install clictl
 ```
 
